@@ -182,4 +182,4 @@ if analyze_clicked:
             st.write(f"{i}. {suggestion}")
 
 st.divider()
-st.caption("Built with Streamlit + Groq (Llama 3.3 70B) · Resume text never leaves this session.")
+st.caption("Built with Streamlit + Groq (GPT-OSS 120B) · Resume text never leaves this session.")
