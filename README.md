@@ -20,7 +20,7 @@ comparing resumes against dozens of job descriptions is slow and error-prone.
 
 - **Frontend/UI:** Streamlit
 - **PDF Parsing:** pypdf
-- **LLM:** Llama 3.3 70B via the Groq API (OpenAI-compatible endpoint, so it also
+- **LLM:** GPT-OSS 120B via the Groq API (OpenAI-compatible endpoint, so it also
   works with OpenAI's API by changing the base URL and model name)
 
 ## Setup
@@ -58,7 +58,7 @@ comparing resumes against dozens of job descriptions is slow and error-prone.
 
 1. You upload a resume PDF and paste a job description.
 2. `pypdf` extracts the raw text from the resume.
-3. Both texts are sent to Llama 3.3 70B (via Groq) with a structured prompt
+3. Both texts are sent to GPT-OSS 120B (via Groq) with a structured prompt
    instructing it to return a strict JSON object: match score, matching
    keywords, missing keywords, and improvement suggestions.
 4. The app parses that JSON and renders it as a score, keyword tags, and a
