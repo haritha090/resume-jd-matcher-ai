@@ -38,9 +38,9 @@ comparing resumes against dozens of job descriptions is slow and error-prone.
 
 3. **Get a free Groq API key**
    Sign up at [console.groq.com/keys](https://console.groq.com/keys) — the free
-   tier is generous and fast (Llama 3.3 70B runs in ~1-2 seconds per request).
-
-4. **Set your API key**
+   tier is generous and fast (GPT-OSS 120B runs in ~1-2 seconds per request).
+   
+5. **Set your API key**
    ```bash
    cp .env.example .env
    # then edit .env and paste your key
@@ -48,7 +48,7 @@ comparing resumes against dozens of job descriptions is slow and error-prone.
    set GROQ_API_KEY=your_key_here      # Windows (cmd)
    ```
 
-5. **Run the app**
+6. **Run the app**
    ```bash
    streamlit run app.py
    ```
