@@ -1,5 +1,7 @@
 # 🧩 Resume-JD Matcher AI
 
+**🔗 Live Demo:** [Try it here](https://resume-jd-matcher-ai-9eejw2quqbtfknq2r7fwgw.streamlit.app/)
+
 An AI-powered tool that compares your resume against a job description and gives
 you an honest, ATS-style match score — along with the exact keywords you're
 missing and concrete suggestions to improve your chances of passing screening.
