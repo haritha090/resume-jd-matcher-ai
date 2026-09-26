@@ -79,6 +79,9 @@ comparing resumes against dozens of job descriptions is slow and error-prone.
 }
 ```
 
+![Input Screen](input-screen.jpeg) 
+![Result Screen](result-screen.jpeg)
+
 ## Limitations
 
 - PDF must contain selectable text — scanned/image-based resumes won't extract correctly.
